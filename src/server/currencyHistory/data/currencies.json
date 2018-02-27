@@ -1,0 +1,12 @@
+[{ 
+    "name": "Canadian Dollar", 
+    "currencyId": 11
+},
+{ 
+    "name": "Dollar", 
+    "currencyId": 1
+},
+{ 
+    "name": "Yen", 
+    "currencyId": 17
+}]

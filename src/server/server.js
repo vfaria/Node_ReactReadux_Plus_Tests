@@ -5,8 +5,6 @@ const bodyParser = require('body-parser');
 const serverConfig = require('../server/config/config') 
 const {errorHandler} = require('./config/middleware')
 
-console.log(errorHandler)
-
 app.use(express.static(__dirname  + './../client/')) //serves the index.html
 app.use(express.static(__dirname  + './../../build/'))
 app.use(bodyParser.json())
